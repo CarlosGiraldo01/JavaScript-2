@@ -1,5 +1,6 @@
-let números = ["12 ", " 23", " 57", " 1", " 129"]
+let numeros = ["12 ", " 23", " 57", " 1", " 129"]
 
-números.splice(2,1)
+let eliminado = numeros.splice(2,1)
 
-console.log(números)
+console.log("Elemento eliminado: " + eliminado)
+console.log(numeros);
